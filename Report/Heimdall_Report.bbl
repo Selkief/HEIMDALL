@@ -1,0 +1,219 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Cowley1992}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8484a3996155fb8f3a5acb0bc6954fd2}{%
+           family={Cowley},
+           familyi={C\bibinitperiod},
+           given={S.W.H.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=231baf19af7a6abc904d56b41fda541d}{%
+           family={Lockwood},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{656e4691c43bdccd81691eb73f3aad41}
+      \strng{fullhash}{656e4691c43bdccd81691eb73f3aad41}
+      \strng{fullhashraw}{656e4691c43bdccd81691eb73f3aad41}
+      \strng{bibnamehash}{656e4691c43bdccd81691eb73f3aad41}
+      \strng{authorbibnamehash}{656e4691c43bdccd81691eb73f3aad41}
+      \strng{authornamehash}{656e4691c43bdccd81691eb73f3aad41}
+      \strng{authorfullhash}{656e4691c43bdccd81691eb73f3aad41}
+      \strng{authorfullhashraw}{656e4691c43bdccd81691eb73f3aad41}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annales Geophysicae}
+      \field{title}{Excitation and decay of solar wind-driven flows in the magnetosphere-ionosphere system}
+      \field{volume}{10}
+      \field{year}{1992}
+      \field{pages}{103\bibrangedash 115}
+      \range{pages}{13}
+    \endentry
+    \entry{sporadicF}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f37d724ec4ddfd192b60ad2ec672ee8a}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f37d724ec4ddfd192b60ad2ec672ee8a}
+      \strng{fullhash}{f37d724ec4ddfd192b60ad2ec672ee8a}
+      \strng{fullhashraw}{f37d724ec4ddfd192b60ad2ec672ee8a}
+      \strng{bibnamehash}{f37d724ec4ddfd192b60ad2ec672ee8a}
+      \strng{authorbibnamehash}{f37d724ec4ddfd192b60ad2ec672ee8a}
+      \strng{authornamehash}{f37d724ec4ddfd192b60ad2ec672ee8a}
+      \strng{authorfullhash}{f37d724ec4ddfd192b60ad2ec672ee8a}
+      \strng{authorfullhashraw}{f37d724ec4ddfd192b60ad2ec672ee8a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{title}{Sudden enhancements of F-layer ionization in Polar Regions}
+      \field{volume}{20}
+      \field{year}{1963}
+      \field{pages}{492\bibrangedash 497}
+      \range{pages}{6}
+    \endentry
+    \entry{ClusterEDI2}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bb8802b7795a4ccd3377a35b0f550182}{%
+           family={M.\bibnamedelimi F\"{o}rster},
+           familyi={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={G.\bibnamedelimi Paschmann\bibnamedelimb et\bibnamedelima al.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb8802b7795a4ccd3377a35b0f550182}
+      \strng{fullhash}{bb8802b7795a4ccd3377a35b0f550182}
+      \strng{fullhashraw}{bb8802b7795a4ccd3377a35b0f550182}
+      \strng{bibnamehash}{bb8802b7795a4ccd3377a35b0f550182}
+      \strng{authorbibnamehash}{bb8802b7795a4ccd3377a35b0f550182}
+      \strng{authornamehash}{bb8802b7795a4ccd3377a35b0f550182}
+      \strng{authorfullhash}{bb8802b7795a4ccd3377a35b0f550182}
+      \strng{authorfullhashraw}{bb8802b7795a4ccd3377a35b0f550182}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annales Geophysicae}
+      \field{title}{High-latitude plasma convection from Cluster EDI: variances and solar wind correlations}
+      \field{volume}{25}
+      \field{year}{2007}
+      \field{pages}{1691\bibrangedash 1707}
+      \range{pages}{17}
+    \endentry
+    \entry{SwarmSuperDARN}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8aa9105484de657e93b7fd4bae96d834}{%
+           family={R.A.D\bibnamedelima Fiori},
+           familyi={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={D.H.\bibnamedelimi Boteler\bibnamedelimb et\bibnamedelima al.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{8aa9105484de657e93b7fd4bae96d834}
+      \strng{fullhash}{8aa9105484de657e93b7fd4bae96d834}
+      \strng{fullhashraw}{8aa9105484de657e93b7fd4bae96d834}
+      \strng{bibnamehash}{8aa9105484de657e93b7fd4bae96d834}
+      \strng{authorbibnamehash}{8aa9105484de657e93b7fd4bae96d834}
+      \strng{authornamehash}{8aa9105484de657e93b7fd4bae96d834}
+      \strng{authorfullhash}{8aa9105484de657e93b7fd4bae96d834}
+      \strng{authorfullhashraw}{8aa9105484de657e93b7fd4bae96d834}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Atmospheric and Solar-Terrestial Physics}
+      \field{title}{Potential impact of Swarm electric field data on global 2D convection mapping in combination with SuperDARN radar data}
+      \field{volume}{93}
+      \field{year}{2013}
+      \field{pages}{87\bibrangedash 99}
+      \range{pages}{13}
+    \endentry
+    \entry{ClusterEDI}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8d63ce57ab53f844574acb9c3d6859a1}{%
+           family={S.\bibnamedelimi E.\bibnamedelimi Haaland},
+           familyi={S\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={G.\bibnamedelimi Paschmann\bibnamedelimb et\bibnamedelima al.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d63ce57ab53f844574acb9c3d6859a1}
+      \strng{fullhash}{8d63ce57ab53f844574acb9c3d6859a1}
+      \strng{fullhashraw}{8d63ce57ab53f844574acb9c3d6859a1}
+      \strng{bibnamehash}{8d63ce57ab53f844574acb9c3d6859a1}
+      \strng{authorbibnamehash}{8d63ce57ab53f844574acb9c3d6859a1}
+      \strng{authornamehash}{8d63ce57ab53f844574acb9c3d6859a1}
+      \strng{authorfullhash}{8d63ce57ab53f844574acb9c3d6859a1}
+      \strng{authorfullhashraw}{8d63ce57ab53f844574acb9c3d6859a1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annales Geophysicae}
+      \field{title}{High-latitude plasma convection from Cluster EDI measurements: method and IMF-dependence}
+      \field{volume}{25}
+      \field{year}{2007}
+      \field{pages}{239\bibrangedash 253}
+      \range{pages}{15}
+    \endentry
+    \entry{WeimerB}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a0896a699e4c7407b38c6a624cc2eb56}{%
+           family={Weimer},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{fullhash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{fullhashraw}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{bibnamehash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{authorbibnamehash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{authornamehash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{authorfullhash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{authorfullhashraw}{a0896a699e4c7407b38c6a624cc2eb56}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research}
+      \field{number}{A05306}
+      \field{title}{Improved ionospheric electrodynamic models and application to calculating Joule heating rates}
+      \field{volume}{110}
+      \field{year}{2005}
+    \endentry
+    \entry{WeimerA}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a0896a699e4c7407b38c6a624cc2eb56}{%
+           family={Weimer},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{fullhash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{fullhashraw}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{bibnamehash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{authorbibnamehash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{authornamehash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{authorfullhash}{a0896a699e4c7407b38c6a624cc2eb56}
+      \strng{authorfullhashraw}{a0896a699e4c7407b38c6a624cc2eb56}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research}
+      \field{number}{A12307}
+      \field{title}{Predicting surface geomagnetic variations using ionospheric electrodynamic models}
+      \field{volume}{110}
+      \field{year}{2005}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

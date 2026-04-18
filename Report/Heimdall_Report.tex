@@ -1,0 +1,139 @@
+\documentclass[a4paper, 12pt, notitlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}
+\usepackage{pythonhighlight}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{makeidx}
+\usepackage{siunitx}
+\usepackage{array}
+\usepackage[top=1in]{geometry}  
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage[backend=biber, sorting = nty]{biblatex}
+\usepackage{biblatex}
+
+\addbibresource{ref.bib}
+
+\begin{document}
+\author{Selma Kiefersauer}
+\title{FYS-3003 and FYS-3002: Heimdall Campaign}
+\maketitle
+
+\section{UHF and VHF}
+
+\begin{figure}[H]
+	\centering
+	\caption{UHF (beata) and VHF (bella) plots from the experiment}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{2026-02-02_beata_30_18-23@uhfa.png}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{2026-02-02_bella_30_18-23@vhf.png}
+	\end{subfigure}
+\end{figure}
+
+The UHF antenna is a 32m parabolic dish antenna that measures along the magnetic field lines (almost straight up). It operates at about 929 MHz. The program run is "beata" (range 51 - 696km, resolution 5.0s). 
+
+The VHF antenna is a rectangular four times 30x40m dish that measures due north at an upward angle of 30degrees from the horizon. It operates at about 224 MHz. The program used in the experiment is "bella" (range 69 - 1352km, resolution 3.6s). 
+
+Can I plot the VHF data on a map? Where and when are the electron enhancements exaclty?
+
+\clearpage
+\section{Solar Wind Data}
+
+From ACE: 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{ACE_data}
+\end{figure}
+
+What is the time delay from ACE to earth? ACE is located at a distance of 1.5 million km from earth. The solar wind mean velocity in the plotted time interval is 303 km/s and this means it takes about 4950s or 82.5 min. 
+\clearpage
+\section{TEC from GNSS}
+
+TEC: It would be interesting to look at the TEC data during the experiment, especially north of Troms{\o}. Is there any indication where the electron enhancements come from? Is there some interesting convection pattern indicated?
+\begin{figure}[H]
+	\centering
+	\caption{TEC from GNSS polar view.}
+	\begin{subfigure}[b]{0.47\textwidth}
+		\includegraphics[width=\textwidth]{TEC1.png}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{TEC2.png}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.47\textwidth}
+		\includegraphics[width=\textwidth]{TEC3.png}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{TEC4.png}
+	\end{subfigure}
+\end{figure}
+
+Next step would be to plot a convection pattern from SuperDarn Data if available. Task: Get data! How can I access it?
+\clearpage
+
+\section{Swarm satellites}
+Swarm A and B:  Swarm B passes the radar beam (VHF) around 21.36 UTC.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{SwarmTrajec.png}
+\end{figure}
+ What would be interesting to compare?\\
+Use Swarm to look at convection patterns by looking at plasma drift velocity (Langmuir probes and Thermal Ion imagers).
+
+\section{Other instruments}
+\begin{figure}[H]
+	\centering
+	\caption{Some ionograms from 02.03.26, Ramfjordmoen.}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/ionograms/ionogram1900.png}
+		\caption{18:00 UTC, before the electron enhancements}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/ionograms/ionogram2137.png}
+		\caption{21.37 UTC, about the time Swarm B passes?}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/ionograms/ionogram2200.png}
+		\caption{22:00 UTC}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/ionograms/ionogram2300.png}
+		\caption{23:00 UTC}
+	\end{subfigure}
+\end{figure}
+Ionogram: are there any unusual actitities? like high f0F2? 
+
+Riometer
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Riometer020226.png}
+\end{figure}
+
+Magnetometer data
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Stackplot_Magnetometers020226.pdf}
+\end{figure}
+
+All-sky cameras Ramfjordmoen show some Aurora but very faint. All cameras around didn't show anything as it was cloudy in Skibotn, Longyearbyen, Ny-\aa lesund.
+
+\url{https://tromsoe-ai.cei.uec.ac.jp/#/}
+
+
+\section{Questions}
+
+Why did the electron density peak around midnight?\\
+Can it be related to convection patterns?\\
+\cite{WeimerA}, \cite{WeimerB}, \cite{ClusterEDI}, \cite{ClusterEDI2}, \cite{Cowley1992}, \cite{sporadicF}, \cite{SwarmSuperDARN}, \cite{enhancedF}
+
+\printbibliography[title={List of Papers}]
+\end{document}

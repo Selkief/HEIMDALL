@@ -1,0 +1,5 @@
+Swarm/
+gnss/
+papers/
+*.hdf5
+*.cdf
