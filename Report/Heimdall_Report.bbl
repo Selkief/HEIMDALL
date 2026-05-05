@@ -19,6 +19,33 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{enhancedF}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=752c52a79ad6d92be121614dbfaf056f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Ling-Xin\bibnamedelima Zhao},
+           giveni={L\bibinithyphendelim X\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{752c52a79ad6d92be121614dbfaf056f}
+      \strng{fullhash}{752c52a79ad6d92be121614dbfaf056f}
+      \strng{fullhashraw}{752c52a79ad6d92be121614dbfaf056f}
+      \strng{bibnamehash}{752c52a79ad6d92be121614dbfaf056f}
+      \strng{authorbibnamehash}{752c52a79ad6d92be121614dbfaf056f}
+      \strng{authornamehash}{752c52a79ad6d92be121614dbfaf056f}
+      \strng{authorfullhash}{752c52a79ad6d92be121614dbfaf056f}
+      \strng{authorfullhashraw}{752c52a79ad6d92be121614dbfaf056f}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research: Space Physics}
+      \field{number}{11}
+      \field{title}{A Statistical Study of Nighttime Ionospheric NmF2 Enhancement at Middle-to-High Latitudes in the Northern Hemisphere}
+      \field{volume}{127}
+    \endentry
     \entry{Cowley1992}{article}{}{}
       \name{author}{2}{}{%
         {{hash=8484a3996155fb8f3a5acb0bc6954fd2}{%

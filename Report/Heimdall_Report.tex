@@ -13,6 +13,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{graphicx}
+\graphicspath{{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/figures}}
 \usepackage{wrapfig}
 \usepackage{hyperref}
 \usepackage[backend=biber, sorting = nty]{biblatex}
@@ -55,28 +56,67 @@ From ACE:
 \end{figure}
 
 What is the time delay from ACE to earth? ACE is located at a distance of 1.5 million km from earth. The solar wind mean velocity in the plotted time interval is 303 km/s and this means it takes about 4950s or 82.5 min. 
+
+Based on this estimate I added the points  which IMF measurement corresponds to the pictured TEC and SuperDARN data in section 3. The IMF corresponding to 19:00 UT has strong -By, no Bz and medium +Bx, at 21:00UT we have strong -By, no Bz and medium +By, at 22:00UT the IMF has strong -By, some -Bx and +Bz. At 23:00 we still have strong -By and virtually no Bz and Bx components.  Expected convection patterns: (\cite{WeimerB} \cite{ClusterEDI2})
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{ConvecIMF}
+\end{figure}
+
+
 \clearpage
-\section{TEC from GNSS}
+\section{TEC from GNSS and SuperDARN}
 
 TEC: It would be interesting to look at the TEC data during the experiment, especially north of Troms{\o}. Is there any indication where the electron enhancements come from? Is there some interesting convection pattern indicated?
 \begin{figure}[H]
 	\centering
 	\caption{TEC from GNSS polar view.}
-	\begin{subfigure}[b]{0.47\textwidth}
-		\includegraphics[width=\textwidth]{TEC1.png}
+	\begin{subfigure}[b]{0.56\textwidth}
+		\includegraphics[width=\textwidth]{TEC1910.png}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{TEC2.png}
+	\begin{subfigure}[b]{0.43\textwidth}
+		\includegraphics[width=\textwidth]{TEC2100.png}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.47\textwidth}
-		\includegraphics[width=\textwidth]{TEC3.png}
+	\begin{subfigure}[b]{0.56\textwidth}
+		\includegraphics[width=\textwidth]{TEC2200.png}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{TEC4.png}
+	\begin{subfigure}[b]{0.43\textwidth}
+		\includegraphics[width=\textwidth]{TEC2300.png}
 	\end{subfigure}
 \end{figure}
 
-Next step would be to plot a convection pattern from SuperDarn Data if available. Task: Get data! How can I access it?
+Super Darn plots from the same time intervall
+\begin{figure}[H]
+	\centering
+	\caption{SuperDarn Plots from the VT SuperDarn Convection Maps plotting tool.}
+	\begin{subfigure}[b]{0.47\textwidth}
+		\includegraphics[width=\textwidth]{SDarn1900.png}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{SDarn2100.png}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.47\textwidth}
+		\includegraphics[width=\textwidth]{SDarn2200.png}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{SDarn2300.png}
+	\end{subfigure}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{electron_densities_EISCAT.png}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{2dcorr}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{1dcorr}
+\end{figure}
 \clearpage
 
 \section{Swarm satellites}
@@ -88,36 +128,8 @@ Swarm A and B:  Swarm B passes the radar beam (VHF) around 21.36 UTC.
  What would be interesting to compare?\\
 Use Swarm to look at convection patterns by looking at plasma drift velocity (Langmuir probes and Thermal Ion imagers).
 
+
 \section{Other instruments}
-\begin{figure}[H]
-	\centering
-	\caption{Some ionograms from 02.03.26, Ramfjordmoen.}
-	\begin{subfigure}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/ionograms/ionogram1900.png}
-		\caption{18:00 UTC, before the electron enhancements}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/ionograms/ionogram2137.png}
-		\caption{21.37 UTC, about the time Swarm B passes?}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/ionograms/ionogram2200.png}
-		\caption{22:00 UTC}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{C:/Users/skief/Documents/UiT/semester8/HEIMDALL/ionograms/ionogram2300.png}
-		\caption{23:00 UTC}
-	\end{subfigure}
-\end{figure}
-Ionogram: are there any unusual actitities? like high f0F2? 
-
-Riometer
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{Riometer020226.png}
-\end{figure}
-
-Magnetometer data
 
 \begin{figure}[H]
 	\centering
