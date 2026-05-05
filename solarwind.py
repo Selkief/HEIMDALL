@@ -21,6 +21,14 @@ print("average solar wind speed", avg_v)
 #convert time into usable format for plots
 time = pd.to_datetime(MFI["time"][:-3])
 
+#mark the solar wind for UT 19, 21,22,23 (look at 80min earlier each)
+# 17.40, 19.40, 20.40, 21.40
+line1 = pd.to_datetime("2026-02-02T17:40:00.000Z")
+line2 = pd.to_datetime("2026-02-02T19:40:00.000Z")
+line3 = pd.to_datetime("2026-02-02T20:40:00.000Z")
+line4 = pd.to_datetime("2026-02-02T21:40:00.000Z")
+
+
 
 fig, axs = plt.subplots(3,1)
 axs[0].plot(time, B_abs, label = "|B|")
@@ -38,6 +46,10 @@ axs[2].set_title("SW bulk speed")
 axs[2].set_ylabel("km/s")
 for ax in axs.flat:
     ax.grid(True)
+    ax.axvline(line1, linestyle="--", color = "black")
+    ax.axvline(line2, linestyle="--", color = "black")
+    ax.axvline(line3, linestyle="--", color = "black")
+    ax.axvline(line4, linestyle="--", color = "black")
 plt.suptitle("Solarwind data ACE")
 plt.tight_layout()
 plt.show()
