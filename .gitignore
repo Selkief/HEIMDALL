@@ -3,3 +3,4 @@ gnss/
 papers/
 *.hdf5
 *.cdf
+dipole.py

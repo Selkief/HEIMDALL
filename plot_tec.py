@@ -13,6 +13,9 @@ import cartopy.feature as cfeature
 import matplotlib.path as mpath
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+import dipole
+
+
 
 #load TEC data into folder
 pysat.params['data_dirs'] = "C:/Users/skief/Documents/UiT/semester8/HEIMDALL"
@@ -31,6 +34,10 @@ for ckey in ['gdlat', 'glon']:
     coords[ckey].append(vtec.meta[ckey, vtec.meta.labels.max_val])
     coords[ckey] = np.array(coords[ckey])
 
+d = dipole.Dipole(2026.) # IGRF epoch 2026.
+lat2d, lon2d = np.meshgrid(vtec["gdlat"].values, vtec["glon"].values, indexing='ij')
+cdlat, cdlon = d.geo2mag(lat2d, lon2d)
+
 #create polar view map as circle
 data_crs = ccrs.PlateCarree()
 fig = plt.figure()
@@ -38,8 +45,8 @@ ax = fig.add_subplot(111, projection=ccrs.NorthPolarStereo())
 ax.coastlines()
 ax.add_feature(cfeature.LAND)
 ax.add_feature(cfeature.OCEAN)
-ax.gridlines()
-ax.set_extent([-180,180, 40,90], crs = ccrs.PlateCarree())
+#ax.gridlines()
+ax.set_extent([-180,180, 53,90], crs = ccrs.PlateCarree())
 theta = np.linspace(0, 2*np.pi, 100)
 center, radius = [0.5, 0.5], 0.5
 verts = np.vstack([np.sin(theta), np.cos(theta)]).T
@@ -75,4 +82,4 @@ def update(frame):
 ani = animation.FuncAnimation(fig, update, frames=576, interval=100, blit=False)
 ani.save('tec_animation2.mp4', writer='ffmpeg')
 plt.tight_layout()
-#plt.show()
+plt.show()
